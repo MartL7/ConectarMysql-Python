@@ -10,7 +10,7 @@ conexion = mysql.connector.connect(
         port = 3306,
         user = "root",
         password = "",
-        db = "fichas"
+        db = "Nombre-De-Tu-BaseDeDatos"
     )
 
 if conexion.is_connected():
